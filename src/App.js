@@ -26,6 +26,7 @@ class LambdaDemo extends Component {
         <button onClick={this.handleClick("async-dadjoke")}>{loading ? "Loading..." : "Call Async Lambda"}</button>
         <br />
         <span>{msg}</span>
+        <img src="./logo.jgp" className="Test" alt="This is meme" />
       </p>
     )
   }
